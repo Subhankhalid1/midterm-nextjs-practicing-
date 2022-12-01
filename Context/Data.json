@@ -1,0 +1,53 @@
+[
+   {
+      "id": 1,
+      "createdAt": "1 d",
+      "createdBy": "Loak John",
+      "userAvatar":"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg",
+
+      "imageUrl":"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg",
+      "message": " View from my office 😍",
+      "numberOfLikes": 12,
+      "numberOfShares": 4,
+      "timestamp": 0
+    },
+    {
+      "id": 2,
+      "createdAt": "1 d",
+      "createdBy": "Jeff",
+      "userAvatar":"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg",
+
+      "imageUrl":"https://images.unsplash.com/photo-1517404215738-15263e9f9178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+      "message": "The Old And The New - Different Technologies😍",
+      "numberOfLikes": 12,
+      "numberOfShares": 4,
+      "timestamp": 0
+    },
+
+    {
+      "id": 3,
+      "createdAt": "2 d",
+      "createdBy": "john mack",
+      "userAvatar":"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg",
+
+      "imageUrl":"https://images.unsplash.com/photo-1584714268709-c3dd9c92b378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2454&q=80",
+
+      "message": "All I need is a break ✨",
+      "numberOfLikes": 54,
+      "numberOfShares": 8,
+      "timestamp": 0
+    },
+    {
+      "id": 4,
+      "createdAt": "19 m",
+      "createdBy": "Rana Subhan Khan",
+      "userAvatar": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg",
+
+     "imageUrl":"https://images.unsplash.com/photo-1591154669695-5f2a8d20c089?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+
+      "message": "Thailand, Tour of Avatar url.",
+      "numberOfLikes": 12,
+      "numberOfShares": 7,
+      "timestamp": 0
+    }
+  ]
