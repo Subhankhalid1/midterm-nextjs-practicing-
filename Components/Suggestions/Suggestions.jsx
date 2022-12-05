@@ -15,7 +15,7 @@ export const Suggestions = () => {
       <div class="p-2 bd-highlight d-flex justify-content-around ">
         <span>
           <img
-            style={{ borderRadius: 20, height: 30, width: 30 }}
+            style={{ borderRadius: 30, height: 40, width: 40 }}
             src="https://links.papareact.com/f0p"
             alt="ddd"
           />
@@ -31,7 +31,7 @@ export const Suggestions = () => {
       <div class="p-2 bd-highlight d-flex justify-content-around ">
         <span>
           <img
-            style={{ borderRadius: 20, height: 30, width: 30 }}
+            style={{ borderRadius: 30, height: 40, width: 40 }}
             src="https://links.papareact.com/f0p"
             alt="ddd"
           />
@@ -47,7 +47,7 @@ export const Suggestions = () => {
       <div class="p-2 bd-highlight d-flex justify-content-around ">
         <span>
           <img
-            style={{ borderRadius: 20, height: 30, width: 30 }}
+            style={{ borderRadius: 30, height: 40, width: 40 }}
             src="https://links.papareact.com/f0p"
             alt="ddd"
           />

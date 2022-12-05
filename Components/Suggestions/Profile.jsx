@@ -7,8 +7,8 @@ const Profile = () => {
         <div class="p-2 bd-highlight d-flex justify-content-around ">
           <span>
             <img
-              style={{ borderRadius: 30, height: 40, width: 40 }}
-              src="https://links.papareact.com/f0p"
+              style={{ borderRadius: 40, height: 50, width: 50 }}
+              src="https://links.papareact.com/snf"
               alt="ddd"
             />
           </span>
@@ -19,8 +19,8 @@ const Profile = () => {
           <span className="d-flex align-items-center">
             <h5 className="text-primary ">Switch</h5>
           </span>
-            </div>
-            <Suggestions/>
+        </div>
+        <Suggestions />
       </div>
     );
 }

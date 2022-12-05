@@ -480,8 +480,8 @@ input {
 
 .post__background {
   background: #fff;
-  height: 18rem;
-  max-height: 18rem;
+  height: 20rem;
+  max-height: 20rem;
   position: relative;
 }
 
@@ -510,14 +510,16 @@ input {
    align-items: center;
   display: grid;
   justify-content:flex-end;
-  grid-gap: 25.5rem;
+  grid-gap: 18.5rem;
   grid-template-columns: max-content auto;
+  color:#000
 }
 .post__footer-item {
   align-items: center;
   display: grid;
   grid-gap: 0.5rem;
   grid-template-columns: max-content auto;
+  color:#000
 }
 
 .post__footer-ic {

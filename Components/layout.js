@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { GlobalContext } from "../Context/Context";
 export default function Layout({ children }) {
   const router = useRouter();
-    const { posts, setPosts } = useContext(GlobalContext);
+    const { posts} = useContext(GlobalContext);
     
     const [data, setData]=useState([])
   const [val, setVal] = useState({
@@ -72,8 +72,8 @@ export default function Layout({ children }) {
         message: val.message,
         imageUrl: val.imageUrl,
         createdBy: "Loak John",
-        numberOfLikes: 12,
-        numberOfShares: 4,
+        numberOfLikes: Math.floor(Math.random() * 12),
+        numberOfShares: Math.floor(Math.random() * 3),
         timestamp: 0,
         createdAt: "1 d",
       };
@@ -90,33 +90,41 @@ export default function Layout({ children }) {
     console.log("form data------->",data);
   return (
     <div className="min-h-screen flex flex-nowrap mt-1">
-      <aside className=" md:w-70 border" style={{ height: "100vh" }}>
-        <header className=" top-0 h-14 flex justify-start items-center font-semibold uppercase m-4">
+      <aside className=" w-25 md:w-25" style={{ height: "90vh" }}>
+        <header className=" top-0 h-16 flex justify-start items-center font-semibold uppercase m-4">
           INSTAGRAM CLONE
         </header>
         <nav>
           <ul>
             {menuItems.map(({ href, title, id }) => (
-              <li className="m-5 fw-bold" key={id}>
+              <li className="m-3 fw-bold" key={id}>
                 {id == 6 ? (
                   <p
                     type="button"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
-                    {" "}
-                    <Link href={href}>{title}</Link>
+                    <Link href={href} className="d-flex m-2 mt-2">
+                      <span className="d-flex m-2 ">
+                        <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png" />
+                      </span>
+
+                      <span className="d-flex m-2 mt-3">{title}</span>
+                    </Link>
                   </p>
                 ) : (
-                  <Link href={href}>{title}</Link>
+                  <Link href={href} className="d-flex m-2 mt-2">
+                    <span className="d-flex m-2 ">
+                      <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png" />
+                    </span>
+
+                    <span className="d-flex m-2 mt-3">{title}</span>
+                  </Link>
                 )}
               </li>
             ))}
           </ul>
         </nav>
-        {/* <header className="  top-5 m-4 h-14 justify-start items-center font-semibold uppercase d-flex align-items-end">
-          Sitting
-        </header> */}
       </aside>
       <div className="flex flex-col md:flex-row flex-1 border">
         <main className="flex-1">{children}</main>
@@ -150,10 +158,18 @@ export default function Layout({ children }) {
                 <div class="form-group">
                   <div class="input-group mb-3 border align-item-center">
                     <div class="custom-file">
-                      <input
+                      {/* <input
                         type="file"
                         class="custom-file-input m-3"
                         id="inputGroupFile01"
+                        name="imageUrl"
+                        onChange={onChanges}
+                        value={val.imageUrl}
+                      /> */}
+                      <input
+                        class="custom-file-input m-3"
+                        required
+                        type="text"
                         name="imageUrl"
                         onChange={onChanges}
                         value={val.imageUrl}

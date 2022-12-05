@@ -4,7 +4,7 @@ export const GlobalContext = createContext();
 const MainContext = ({ children }) => {
    
     const [postDetail, setPostDetail] = useState({});
-const [posts, setPosts] = useState();
+const [posts, setPosts] = useState(Data);
       useEffect(() => {
         if (typeof window !== "undefined") {
           const store = window?.localStorage.getItem("data");

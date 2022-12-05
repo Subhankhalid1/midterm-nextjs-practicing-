@@ -1,5 +1,5 @@
 function PostList({ createdBy, message, imageUrl, userAvatar }) {
-    const image =  "https://images.unsplash.com/photo-1517404215738-15263e9f9178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80";
+    //const image =  "https://images.unsplash.com/photo-1517404215738-15263e9f9178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80";
   return (
     <div className="post__container">
       <div className="post__title-container">
@@ -94,8 +94,8 @@ function PostList({ createdBy, message, imageUrl, userAvatar }) {
       <div>
         <div className="post__footer-item">
           <p
-            className="post__reaction mb-3 fw-bold"
-            style={{ marginLeft: "9px" }}
+            className="post__reaction mb-4 text-mute"
+            style={{ marginLeft: "16px" }}
           >
             144 Likes
           </p>
