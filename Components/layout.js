@@ -126,7 +126,7 @@ export default function Layout({ children }) {
           </ul>
         </nav>
       </aside>
-      <div className="flex flex-col md:flex-row flex-1 border">
+      <div className="flex flex-col md:flex-row flex-1">
         <main className="flex-1">{children}</main>
       </div>
       {/* Modal */}

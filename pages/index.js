@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <div className="container-fluid d-flex ">
       <div class="row col-lg-12 col-md-12 col-sm-12 ">
-        <div class=" col-md-8 col-sm-12 border">
+        <div class=" col-md-8 col-sm-12">
           <Stories />
           <Post />
         </div>
-        <div class=" col-md-4 col-sm-12 border">
+        <div class=" col-md-4 col-sm-12 ">
           <Profile />
           {/* <div class="p-2 bd-highlight d-flex justify-content-around border ">
             <span>
